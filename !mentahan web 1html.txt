@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Halaman Utama</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        background-color: #f0f0f0;
+        padding: 10px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+      }
+
+      .logo {
+        max-width: 100px;
+        margin-right: 20px;
+      }
+
+      nav {
+        margin-left: auto;
+      }
+
+      nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+      }
+
+      nav ul li {
+        margin-right: 20px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+      }
+
+      nav ul li a:hover {
+        color: #ff6600; /* Warna ketika hover */
+      }
+
+      main {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      section {
+        background-color: #f0f0f0;
+        border-radius: 10px;
+        padding: 20px;
+        width: 80%;
+        max-width: 800px;
+        margin-bottom: 20px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        transition: box-shadow 0.3s ease; /* Efek transisi untuk box-shadow */
+      }
+
+      section:hover {
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Box-shadow yang lebih tegas saat hover */
+      }
+
+      h2 {
+        color: #333;
+      }
+
+      p {
+        color: #666;
+      }
+
+      footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="logo.png" alt="Logo" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#kapitalis">Kapitalis Mengubah Dunia</a></li>
+          <li><a href="#jepang">Bangkitnya Jepang Tahun 1945</a></li>
+          <li><a href="#indonesia">Kemerdekaan Indonesia</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="kapitalis">
+        <h2>Kapitalis Mengubah Dunia</h2>
+        <p>Isaspembahasan untuk si pembahasaik ini.</p>
+      </section>
+
+      <section id="jepang">
+        <h2>Bangkitnya Jepang Tahun 1945</h2>
+        <p>Isi pembahasan untuk topik ini.</p>
+      </section>
+
+      <section id="indonesia">
+        <h2>Kemerdekaan Indonesia</h2>
+        <p>Isi pembahasan untuk topik ini.</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>Hak Cipta © 2024 - Nama Perusahaan Anda</p>
+    </footer>
+  </body>
+</html>
