@@ -1,9 +1,11 @@
+/* Gaya dasar untuk seluruh body */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
+/* Gaya untuk header (bagian atas halaman) */
 header {
   background-color: #f0f0f0;
   padding: 10px 20px;
@@ -13,11 +15,13 @@ header {
   flex-wrap: wrap;
 }
 
+/* Ukuran logo */
 .logo img {
   width: 40px;
   height: auto;
 }
 
+/* Menghilangkan bullet dan membuat menu horizontal */
 nav ul {
   list-style-type: none;
   padding: 0;
@@ -26,20 +30,24 @@ nav ul {
   flex-wrap: wrap;
 }
 
+/* Jarak antar item menu */
 nav ul li {
   margin-right: 15px;
 }
 
+/* Gaya link menu */
 nav ul li a {
   text-decoration: none;
   color: #333;
   font-weight: bold;
 }
 
+/* Efek hover pada link menu */
 nav ul li a:hover {
   color: #ff6600;
 }
 
+/* Gaya konten utama */
 main {
   padding: 20px;
   display: flex;
@@ -47,6 +55,7 @@ main {
   align-items: center;
 }
 
+/* Gaya setiap section */
 .section {
   background-color: #f0f0f0;
   border-radius: 10px;
@@ -61,10 +70,12 @@ main {
   align-items: center;
 }
 
+/* Efek hover pada section */
 .section:hover {
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
 }
 
+/* Gaya gambar dalam section */
 .section-image {
   max-width: 120px;
   margin-right: 20px;
@@ -72,14 +83,17 @@ main {
   border-radius: 10px;
 }
 
+/* Judul section */
 h2 {
   color: #333;
 }
 
+/* Warna teks paragraf */
 p {
   color: #666;
 }
 
+/* Gaya footer */
 footer {
   background-color: #000;
   color: #fff;
@@ -87,7 +101,11 @@ footer {
   padding: 10px 0;
 }
 
-/* === RESPONSIVE DESIGN === */
+/* ========================= */
+/* RESPONSIVE DESIGN SECTION */
+/* ========================= */
+
+/* Tampilan untuk layar <= 768px (tablet) */
 @media screen and (max-width: 768px) {
   header {
     flex-direction: column;
@@ -114,6 +132,7 @@ footer {
   }
 }
 
+/* Tampilan untuk layar <= 480px (HP) */
 @media screen and (max-width: 480px) {
   body {
     font-size: 14px;
